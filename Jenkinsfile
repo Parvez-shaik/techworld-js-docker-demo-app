@@ -7,12 +7,14 @@ pipeline {
     steps {
        echo'building the application'
     }
+  }
 
   stages("test"){
 
     steps {
        echo'testing the application'
     }
+  }
 
    stages("deploy"){
 
